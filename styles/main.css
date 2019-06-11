@@ -46,20 +46,17 @@ li {
   z-index: ;
 }
 
-.menu.open .menu-item:nth-child(1) {
-  transform: translateX(calc(100vw / 8 * 1));
-}
 
 .menu.open .menu-item:nth-child(2) {
-  transform: translateX(calc(100vw / 8 * 2));
+  transform: translateX(calc(100vw / 10 * 1));
 }
 
 .menu.open .menu-item:nth-child(3) {
-  transform: translateX(calc(100vw / 8 * 3));
+  transform: translateX(calc(100vw / 10 * 2));
 }
 
 .menu.open .menu-item:nth-child(4) {
-  transform: translateX(calc(100vw / 8 * 4));
+  transform: translateX(calc(100vw / 10 * 3));
 }
 
 .hero {
@@ -68,7 +65,6 @@ li {
 
 .hero_who {
   width: 60%;
-  margin-top: -10%;
   z-index: -10;
 }
 
