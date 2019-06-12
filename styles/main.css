@@ -8,7 +8,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #444
+  color: #444;
 }
 
 .container {
@@ -21,14 +21,21 @@ li {
 }
 
 .nav {
-  margin-top: 4%
+  margin-top: 4%;
 }
 
 .logo_nav {
   width: 30%;
   margin-top: -1%;
   z-index: 2;
+}
 
+.arrow {
+  position: absolute;
+  width: 1%;
+  margin-left: 10%;
+  margin-top: 3.7%;
+  transform: rotate(-90deg);
 }
 
 .menu {
@@ -47,7 +54,6 @@ li {
   z-index: -1;
 }
 
-
 .menu.open .menu-item:nth-child(2) {
   transform: translateX(calc(100vw / 10 * 1));
 }
@@ -60,8 +66,14 @@ li {
   transform: translateX(calc(100vw / 10 * 3));
 }
 
+.menu.open .menu-item:nth-child(4) {
+  transform: translateX(calc(100vw / 10 * 3));
+}
+
 .hero {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
 }
 
 .hero_who {
@@ -72,22 +84,23 @@ li {
 .sub_hero {
   display: flex;
   justify-content: space-around;
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 .txt1 {
   width: 60%;
   font-size: 1.2rem;
-  margin-top: 10%;
+  margin-top: 15%;
   text-align: right;
+  min-width: 40%;
 }
 
 .plus {
-  padding: 10%
+  padding: 10%;
 }
 
 .safety_run {
-  height: 85vh;
+  width: 50%;
   margin-top: -10%;
 }
 
@@ -102,12 +115,11 @@ li {
 
 .footer_logo {
   width: 3%;
-  margin-top: -1.5%;
-  min-width: 2%;
+  min-width: 3%;
 }
 
 .footer_contact {
   display: flex;
   justify-content: flex-end;
-  margin-top: -1.5%
+  margin-top: -1.5%;
 }
