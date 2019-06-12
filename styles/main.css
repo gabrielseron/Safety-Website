@@ -93,6 +93,8 @@ li {
   margin-top: 15%;
   text-align: right;
   min-width: 40%;
+  margin-right: -10%;
+  z-index: 2;
 }
 
 .plus {
@@ -100,7 +102,7 @@ li {
 }
 
 .safety_run {
-  width: 50%;
+  width: 40%;
   margin-top: -10%;
 }
 
