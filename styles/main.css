@@ -144,3 +144,8 @@ div.container img{
   margin-top: 50px;
   padding-left: 500px;
 }
+
+.fp-tooltip.fp-right{
+  color: black !important;
+  font-weight: bold;
+}
