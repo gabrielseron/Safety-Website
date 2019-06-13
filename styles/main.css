@@ -24,6 +24,12 @@ li {
   margin-top: 4%;
 }
 
+#nav {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 5;
+}
 nav {
   margin-top: 4%;
 }
@@ -110,6 +116,14 @@ nav {
   margin-top: -10%;
 }
 
+#footer {
+    bottom: 20px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 5;
+  }
+
 .footer {
   margin: 2%;
   display: flex;
@@ -119,11 +133,13 @@ nav {
 .footer_brand {
   margin-top: -2.5%;
   margin-left: 5%;
+  background: #fff;
 }
 
 .footer_logo {
   width: 3%;
   min-width: 3%;
+  background: #fff;
 }
 
 .footer_contact {
