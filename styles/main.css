@@ -38,6 +38,7 @@ nav {
   width: 30%;
   margin-top: -1%;
   z-index: 2;
+  cursor: pointer;
 }
 
 .arrow {
@@ -167,4 +168,13 @@ div.container img {
 .fp-tooltip.fp-right {
   color: black !important;
   font-weight: bold;
+}
+
+.mainShop{
+text-align: center;
+}
+
+.wipPicture{
+width: 15%;
+height: inherit;
 }
