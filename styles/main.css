@@ -83,11 +83,11 @@ nav {
 .hero {
   display: flex;
   justify-content: center;
-  margin-top: 6%;
+  margin-top: 7%;
 }
 
 .hero_who {
-  width: 53%;
+  width: 60%;
   z-index: -10;
 }
 
@@ -126,8 +126,7 @@ nav {
 
 .footer {
   margin: 2%;
-  display: flex;
-  justify-content: space-between;
+  background: #fff;
 }
 
 .footer_brand {
@@ -145,7 +144,8 @@ nav {
 .footer_contact {
   display: flex;
   justify-content: flex-end;
-  margin-top: 1.5%;
+  margin-top: -1.5%;
+  background: #fff;
 }
 
 div.container img {
