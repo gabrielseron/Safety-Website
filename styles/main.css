@@ -148,22 +148,23 @@ nav {
   background: #fff;
 }
 
-div.container img{
+div.container img {
   width: 307px;
   height: 454px;
 }
 
-.lou, .affiches{
+.lou,
+.affiches {
   margin-top: 50px;
   margin-left: 10px;
 }
 
-.yacine{
+.yacine {
   margin-top: 50px;
   padding-left: 500px;
 }
 
-.fp-tooltip.fp-right{
+.fp-tooltip.fp-right {
   color: black !important;
   font-weight: bold;
 }
