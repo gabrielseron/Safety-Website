@@ -149,20 +149,22 @@ nav {
   background: #fff;
 }
 
-div.container img {
+div.section img {
   width: 307px;
   height: 454px;
 }
 
+#fullPage {
+  width: 80%;
+  margin: auto;
+}
 .lou,
 .affiches {
-  margin-top: 50px;
-  margin-left: 10px;
+text-align: right;
 }
 
 .yacine {
-  margin-top: 50px;
-  padding-left: 500px;
+text-align: left;
 }
 
 .fp-tooltip.fp-right {
@@ -177,4 +179,9 @@ text-align: center;
 .wipPicture{
 width: 15%;
 height: inherit;
+}
+
+h2 {
+  text-align: center;
+  padding: auto;
 }
