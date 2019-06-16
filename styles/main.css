@@ -115,24 +115,25 @@ nav {
 .safety_run {
   width: 40%;
   margin-top: -10%;
+  height: inherit;
 }
 
 #footer {
-    bottom: 20px;
-    position: fixed;
-    display: block;
-    width: 100%;
-    z-index: 5;
-  }
+  bottom: 20px;
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 5;
+}
 
 .footer {
   margin: 2%;
   background: #fff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer_brand {
-  margin-top: -2.5%;
-  margin-left: 5%;
   background: #fff;
 }
 
@@ -143,9 +144,7 @@ nav {
 }
 
 .footer_contact {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -1.5%;
+  margin-top: 1.2%;
   background: #fff;
 }
 
@@ -160,11 +159,11 @@ div.section img {
 }
 .lou,
 .affiches {
-text-align: right;
+  text-align: right;
 }
 
 .yacine {
-text-align: left;
+  text-align: left;
 }
 
 .fp-tooltip.fp-right {
@@ -172,13 +171,21 @@ text-align: left;
   font-weight: bold;
 }
 
-.mainShop{
-text-align: center;
+.mainShop {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 15%;
 }
 
-.wipPicture{
-width: 15%;
-height: inherit;
+.wip {
+  font-size: 1.7rem;
+  margin-top: 3%;
+}
+
+.wipPicture {
+  width: 19%;
+  height: inherit;
 }
 
 h2 {
