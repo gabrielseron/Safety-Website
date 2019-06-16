@@ -192,3 +192,32 @@ h2 {
   text-align: center;
   padding: auto;
 }
+
+@media screen and (min-width:768px) and (max-width:1400px)
+{
+  .hero_who{
+    height: 80%;
+    z-index: -10;
+    }
+
+  .sub_hero{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+        height: 80%
+      }
+  }
+
+  @media screen and (min-width:1080px) and (max-width:1920px)
+  {
+    .hero_who{
+      height: 60%;
+      z-index: -10;
+      }
+    .sub_hero{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+        height: 60%
+      }
+    }
