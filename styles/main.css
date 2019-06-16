@@ -148,9 +148,25 @@ nav {
   background: #fff;
 }
 
-div.section img {
-  width: 307px;
-  height: 454px;
+.yacine img, .lou img {
+  max-width:473px;
+  max-height:700px;
+  width: auto;
+  height: auto;
+}
+
+.affiches img:first-child  {
+  max-width:493px;
+  max-height:700px;
+  width: auto;
+  height: auto;
+}
+
+.affiches img:last-child {
+  max-width:501px;
+  max-height:700px;
+  width: auto;
+  height: auto;
 }
 
 #fullPage {
@@ -159,11 +175,13 @@ div.section img {
 }
 .lou,
 .affiches {
-  text-align: right;
+  float: right;
+  padding-top: 5%;
 }
 
 .yacine {
-  text-align: left;
+  float: left;
+  padding-top: 5%;
 }
 
 .fp-tooltip.fp-right {
@@ -188,9 +206,18 @@ div.section img {
   height: inherit;
 }
 
-h2 {
-  text-align: center;
-  padding: auto;
+.desc {
+  float: left;
+  margin-top: 23%;
+  margin-left: 5%;
+  font-size: 25px;
+}
+
+.desc2 {
+  float: right;
+  margin-top: 23%;
+  margin-left: 5%;
+  font-size: 25px;
 }
 
 @media screen and (min-width:768px) and (max-width:1400px)
