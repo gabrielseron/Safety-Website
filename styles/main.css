@@ -90,6 +90,7 @@ nav {
 .hero_who {
   width: 60%;
   z-index: -10;
+  height: 60%;
 }
 
 .sub_hero {
@@ -115,7 +116,7 @@ nav {
 .safety_run {
   width: 40%;
   margin-top: -10%;
-  height: inherit;
+  height: 40%;
 }
 
 #footer {
@@ -146,6 +147,39 @@ nav {
 .footer_contact {
   margin-top: 1.2%;
   background: #fff;
+}
+
+.gfooter {
+  margin: 2%;
+  background: #fff;
+}
+
+.gfooter_brand {
+  background: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.gfooter_logo {
+  width: 3%;
+  min-width: 3%;
+  background: #fff;
+  float: left;
+  padding-top: 20px;
+}
+
+.gfooter_contact {
+  background: #fff;
+  float: right;
+}
+
+.footercontent {
+  height: 100px;
+  background-color: blue;
+}
+
+.horizontal-rule {
+  border-top: 2px solid black;
 }
 
 .yacine img, .lou img {
