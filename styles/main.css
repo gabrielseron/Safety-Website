@@ -18,6 +18,7 @@ a {
 
 li {
   list-style: none;
+  object-fit: contain;
 }
 
 .nav {
@@ -39,6 +40,7 @@ nav {
   margin-top: -1%;
   z-index: 2;
   cursor: pointer;
+  margin: 0;
 }
 
 .arrow {
@@ -62,7 +64,7 @@ nav {
   transition: all 0.3s ease;
   margin-top: 4.7%;
   margin-left: 6.5%;
-  z-index: 3;
+  z-index: -1;
 }
 
 .menu.open .menu-item:nth-child(2) {
@@ -303,6 +305,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
+
   .hero_who {
     height: 80%;
     z-index: -10;
