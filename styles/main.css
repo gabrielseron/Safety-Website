@@ -51,7 +51,7 @@ nav {
 
 .menu {
   position: relative;
-  width: calc(100% - 80px);
+  width: calc(80% - 80px);
 }
 
 .menu-item {
@@ -182,23 +182,24 @@ nav {
   border-top: 2px solid black;
 }
 
-.yacine img, .lou img {
-  max-width:473px;
-  max-height:700px;
+.yacine img,
+.lou img {
+  max-width: 473px;
+  max-height: 700px;
   width: auto;
   height: auto;
 }
 
-.affiches img:first-child  {
-  max-width:493px;
-  max-height:700px;
+.affiches img:first-child {
+  max-width: 493px;
+  max-height: 700px;
   width: auto;
   height: auto;
 }
 
 .affiches img:last-child {
-  max-width:501px;
-  max-height:700px;
+  max-width: 501px;
+  max-height: 700px;
   width: auto;
   height: auto;
 }
@@ -254,82 +255,76 @@ nav {
   font-size: 25px;
 }
 
-@media screen and (min-width:320px) and (max-width:767px)
-{
-
-  .logo_nav{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo_nav {
     text-align: center;
     width: 40%;
   }
 
-  .menu-item{
+  .menu-item {
     display: none;
   }
 
-  .hero_who{
+  .hero_who {
     height: 80%;
     width: 100%;
     margin-top: 20px;
     z-index: -10;
-    }
+  }
 
-  .txt1{
+  .txt1 {
     width: 100%;
     height: 80%;
     text-align: justify;
   }
 
-  .sub_hero{
-        display: block;
-        margin-top: 25%;
-        text-align: center;
-      }
-    .safety_run{
-        height: 100%;
-        width: 80%;
-        margin-top: 5px;
-    }
-
-    .footer_logo{
-      width: 40%;
-      height: 40%;
-      text-align: center;
-    }
-
-    .footer_logo + p{
-      width: 100%;
-      height: 40%;
-      text-align: right;
-    }
-
+  .sub_hero {
+    display: block;
+    margin-top: 25%;
+    text-align: center;
+  }
+  .safety_run {
+    height: 100%;
+    width: 80%;
+    margin-top: 5px;
   }
 
+  .footer_logo {
+    width: 40%;
+    height: 40%;
+    text-align: center;
+  }
 
-@media screen and (min-width:768px) and (max-width:1400px)
-{
-  .hero_who{
+  .footer_logo + p {
+    width: 100%;
+    height: 40%;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .hero_who {
     height: 80%;
     z-index: -10;
-    }
-
-  .sub_hero{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 11%;
-        height: 80%
-      }
   }
 
-  @media screen and (min-width:1401px) and (max-width:1920px)
-  {
-    .hero_who{
-      height: 60%;
-      z-index: -10;
-      }
-    .sub_hero{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 15%;
-        height: 60%
-      }
-    }
+  .sub_hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 11%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1920px) {
+  .hero_who {
+    height: 60%;
+    z-index: -10;
+  }
+  .sub_hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    height: 60%;
+  }
+}
