@@ -16,7 +16,7 @@ window.addEventListener('scroll', function(){
   if (scroll_State > initialScroll) {
     document.querySelector('.menu').classList.remove("open");
     initialScroll = scroll_State
-  } else if (scroll_State < initialScroll) {
+  } else if (scroll_State == 0) {
     document.querySelector('.menu').classList.add("open");
     initialScroll = window.scrollY
   }
