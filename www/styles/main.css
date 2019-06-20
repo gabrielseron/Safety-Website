@@ -269,7 +269,7 @@ li {
   font-size: 25px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 812px) {
   .logo_nav {
     text-align: center;
     width: 40%;
@@ -301,6 +301,7 @@ li {
     height: 100%;
     width: 80%;
     margin-top: 5px;
+    display: inline;
   }
 
   .footer_logo {
@@ -316,7 +317,7 @@ li {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 813px) and (max-width: 1400px) {
 
   .hero_who {
     height: 80%;
@@ -329,6 +330,11 @@ li {
     margin-top: 11%;
     height: 80%;
   }
+
+  .lou, .yacine, .affiche{
+    padding: 0 auto
+  }
+
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1920px) {

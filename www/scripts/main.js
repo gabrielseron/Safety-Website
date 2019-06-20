@@ -8,6 +8,7 @@ for (let i = 0; i < myButtons.length; i++) {
     myButtons[i].addEventListener("click", addOpenClass);
 }
 
+
 var scroll_State = 0
 var initialScroll = 0
 window.addEventListener('scroll', function(){
