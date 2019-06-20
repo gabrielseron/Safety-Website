@@ -87,9 +87,10 @@ li {
   z-index: 5;
 }
 
-.menu.open .arrow{
+.menu.open .arrow {
   transform: rotate(90deg);
 }
+
 .hero {
   display: flex;
   justify-content: center;
@@ -221,6 +222,7 @@ li {
   width: 80%;
   margin: auto;
 }
+
 .lou,
 .affiches {
   float: right;
@@ -297,6 +299,7 @@ li {
     margin-top: 25%;
     text-align: center;
   }
+
   .safety_run {
     height: 100%;
     width: 80%;
@@ -310,7 +313,7 @@ li {
     text-align: center;
   }
 
-  .footer_logo + p {
+  .footer_logo+p {
     width: 100%;
     height: 40%;
     text-align: right;
@@ -318,7 +321,6 @@ li {
 }
 
 @media screen and (min-width: 813px) and (max-width: 1400px) {
-
   .hero_who {
     height: 80%;
     z-index: -10;
@@ -330,11 +332,6 @@ li {
     margin-top: 11%;
     height: 80%;
   }
-
-  .lou, .yacine, .affiche{
-    padding: 0 auto
-  }
-
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1920px) {
@@ -342,6 +339,7 @@ li {
     height: 60%;
     z-index: -10;
   }
+
   .sub_hero {
     display: flex;
     justify-content: space-around;
