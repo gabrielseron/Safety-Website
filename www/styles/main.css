@@ -158,8 +158,9 @@ nav {
 
 .gfooter_brand {
   background: #fff;
-  text-align: center;
-  padding-top: 30px;
+  padding-left: 42%;
+  display: inline;
+  font-size: 23px;
 }
 
 .gfooter_logo {
@@ -167,12 +168,14 @@ nav {
   min-width: 3%;
   background: #fff;
   float: left;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .gfooter_contact {
   background: #fff;
   float: right;
+  display: inline;
+  font-size: 23px;
 }
 
 .footercontent {
@@ -182,6 +185,7 @@ nav {
 
 .horizontal-rule {
   border-top: 2px solid black;
+  padding-bottom: 20px;
 }
 
 .yacine img,
