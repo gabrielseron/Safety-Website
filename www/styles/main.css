@@ -21,22 +21,17 @@ li {
   object-fit: contain;
 }
 
-.nav {
-  margin-top: 4%;
-}
-
 #nav {
   position: fixed;
-  display: block;
-  width: 100%;
+  width: 80%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
   z-index: 5;
-}
-nav {
-  margin-top: 4%;
 }
 
 .logo_nav {
-  width: 30%;
+  width: 27%;
   margin-top: -1%;
   z-index: 2;
   cursor: pointer;
@@ -46,8 +41,8 @@ nav {
 .arrow {
   position: absolute;
   width: 1%;
-  margin-left: 10%;
-  margin-top: 3.7%;
+  margin-left: 8.5%;
+  margin-top: 3.2%;
   transform: rotate(-90deg);
 }
 
@@ -62,31 +57,39 @@ nav {
   top: 0;
   transform: translateX(0);
   transition: all 0.3s ease;
-  margin-top: 4.7%;
-  margin-left: 6.5%;
+  margin-top: 4%;
+  margin-left: 4.5%;
   z-index: -1;
+  font-size: 2px;
 }
 
 .menu.open .menu-item:nth-child(2) {
   transform: translateX(calc(100vw / 10 * 1));
+  font-size: 22px;
 }
 
 .menu.open .menu-item:nth-child(3) {
   transform: translateX(calc(100vw / 10 * 2));
+  font-size: 22px;
 }
 
 .menu.open .menu-item:nth-child(4) {
   transform: translateX(calc(100vw / 10 * 3));
+  font-size: 22px;
 }
 
-.menu.open .menu-item:nth-child(4) {
-  transform: translateX(calc(100vw / 10 * 3));
+.menu.open .menu-item:nth-child(5) {
+  transform: translateX(calc(100vw / 10 * 4));
+  font-size: 22px;
 }
 
+.menu.open .arrow{
+  transform: rotate(90deg);
+}
 .hero {
   display: flex;
   justify-content: center;
-  margin-top: 7%;
+  padding-top: 8%;
 }
 
 .hero_who {
