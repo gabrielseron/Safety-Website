@@ -84,6 +84,7 @@ li {
 .menu.open .menu-item:nth-child(5) {
   transform: translateX(calc(100vw / 10 * 4));
   font-size: 22px;
+  z-index: 5;
 }
 
 .menu.open .arrow{
@@ -240,7 +241,8 @@ li {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 15%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .wip {
