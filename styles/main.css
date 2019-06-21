@@ -21,18 +21,23 @@ li {
   object-fit: contain;
 }
 
+.nav {
+  margin-top: 4%;
+}
+
 #nav {
   position: fixed;
-  width: 80%;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, 0%);
+  display: block;
+  width: 100%;
   z-index: 5;
+}
+nav {
+  margin-top: 4%;
 }
 
 .logo_nav {
-  width: 27%;
-  min-width: 26%;
+  width: 30%;
+  min-width: 20%;
   margin-top: -1%;
   z-index: 2;
   cursor: pointer;
@@ -42,14 +47,14 @@ li {
 .arrow {
   position: absolute;
   width: 1%;
-  margin-left: 8.5%;
-  margin-top: 3.2%;
+  margin-left: 10%;
+  margin-top: 3.7%;
   transform: rotate(-90deg);
 }
 
 .menu {
   position: relative;
-  width: calc(100% - 80px);
+  width: calc(80% - 80px);
 }
 
 .menu-item {
@@ -58,44 +63,31 @@ li {
   top: 0;
   transform: translateX(0);
   transition: all 0.3s ease;
-  margin-top: 4%;
-  margin-left: 4.5%;
+  margin-top: 4.7%;
+  margin-left: 6.5%;
   z-index: -1;
-  font-size: 2px;
 }
 
 .menu.open .menu-item:nth-child(2) {
   transform: translateX(calc(100vw / 10 * 1));
-  font-size: 22px;
-  z-index: 5;
 }
 
 .menu.open .menu-item:nth-child(3) {
   transform: translateX(calc(100vw / 10 * 2));
-  font-size: 22px;
-  z-index: 5;
 }
 
 .menu.open .menu-item:nth-child(4) {
   transform: translateX(calc(100vw / 10 * 3));
-  font-size: 22px;
-  z-index: 5;
 }
 
-.menu.open .menu-item:nth-child(5) {
-  transform: translateX(calc(100vw / 10 * 4));
-  font-size: 22px;
-  z-index: 5;
-}
-
-.menu.open .arrow {
-  transform: rotate(90deg);
+.menu.open .menu-item:nth-child(4) {
+  transform: translateX(calc(100vw / 10 * 3));
 }
 
 .hero {
   display: flex;
   justify-content: center;
-  padding-top: 12%;
+  margin-top: 7%;
 }
 
 .hero_who {
@@ -163,28 +155,25 @@ li {
 .gfooter {
   margin: 2%;
   background: #fff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .gfooter_brand {
   background: #fff;
-  padding-left: 42%;
-  display: inline;
-  font-size: 23px;
+  padding-top: 30px;
 }
 
 .gfooter_logo {
   width: 3%;
   min-width: 3%;
   background: #fff;
-  float: left;
-  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .gfooter_contact {
   background: #fff;
-  float: right;
-  display: inline;
-  font-size: 23px;
+  margin-top: -30px;
 }
 
 .footercontent {
@@ -194,7 +183,6 @@ li {
 
 .horizontal-rule {
   border-top: 2px solid black;
-  padding-bottom: 20px;
 }
 
 .yacine img,
@@ -223,7 +211,6 @@ li {
   width: 80%;
   margin: auto;
 }
-
 .lou,
 .affiches {
   float: right;
@@ -244,8 +231,7 @@ li {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  margin: 15%;
 }
 
 .wip {
@@ -272,17 +258,7 @@ li {
   font-size: 25px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 812px) {
-
-  .wipPicture {
-    width: 40%;
-    margin-top: 15%
-  }
-
-  .wip {
-    font-size: 1.5rem
-  }
-
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .logo_nav {
     text-align: center;
     width: 40%;
@@ -310,12 +286,10 @@ li {
     margin-top: 25%;
     text-align: center;
   }
-
   .safety_run {
     height: 100%;
     width: 80%;
     margin-top: 5px;
-    display: inline;
   }
 
   .footer_logo {
@@ -324,14 +298,14 @@ li {
     text-align: center;
   }
 
-  .footer_logo+p {
+  .footer_logo + p {
     width: 100%;
     height: 40%;
     text-align: right;
   }
 }
 
-@media screen and (min-width: 813px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 1400px) {
   .hero_who {
     height: 80%;
     z-index: -10;
@@ -350,7 +324,6 @@ li {
     height: 60%;
     z-index: -10;
   }
-
   .sub_hero {
     display: flex;
     justify-content: space-around;
