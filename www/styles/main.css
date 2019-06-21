@@ -268,14 +268,7 @@ li {
 
 @media screen and (min-width: 320px) and (max-width: 813px) {
 
-  .wipPicture {
-    width: 40%;
-    margin-top: 15%
-  }
 
-  .wip {
-    font-size: 1.5rem
-  }
 
   .logo_nav {
     text-align: center;
@@ -345,19 +338,31 @@ li {
     height: 80%;
 
   }
-  .safety_run{
+
+  .safety_run {
     margin-top: 10%
   }
 
-  .txt1{
-  font-size: 200%;
-  margin-top: 2%;
-  transform: translate(-5%, 0%);
+  .txt1 {
+    font-size: 200%;
+    margin-top: 2%;
+    transform: translate(-5%, 0%);
   }
 
-  #fullPage{
-  display: flex;
-  flex-direction: column;
+  //SHOP
+
+  .wipPicture {
+    width: 40%;
+    margin-top: 15%
+  }
+
+  .wip {
+    font-size: 1.5rem
+  }
+
+  #fullPage {
+    display: flex;
+    flex-direction: column;
   }
 
 }
