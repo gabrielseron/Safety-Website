@@ -42,8 +42,8 @@ li {
 .arrow {
   position: absolute;
   width: 1%;
-  margin-left: 8.5%;
-  margin-top: 3.2%;
+  margin-left: 11%;
+  margin-top: 4%;
   transform: rotate(-90deg);
 }
 
@@ -118,6 +118,7 @@ li {
   min-width: 40%;
   margin-right: -10%;
   z-index: 2;
+  text-align: center
 }
 
 .plus {
@@ -136,13 +137,6 @@ li {
   display: block;
   width: 100%;
   z-index: 5;
-}
-
-.footer {
-  margin: 2%;
-  background: #fff;
-  display: flex;
-  justify-content: space-around;
 }
 
 .footer_brand {
