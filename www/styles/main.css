@@ -266,7 +266,7 @@ li {
   font-size: 25px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 812px) {
+@media screen and (min-width: 320px) and (max-width: 813px) {
 
   .wipPicture {
     width: 40%;
@@ -291,6 +291,7 @@ li {
     width: 100%;
     margin-top: 20px;
     z-index: -10;
+    margin-top: 50px;
   }
 
   .txt1 {
@@ -300,16 +301,19 @@ li {
   }
 
   .sub_hero {
-    display: block;
+    display: flex;
     margin-top: 25%;
-    text-align: center;
+    text-align: justify;
+    flex-direction: column;
+
+
   }
 
   .safety_run {
     height: 100%;
     width: 80%;
     margin-top: 5px;
-    display: inline;
+
   }
 
   .footer_logo {
@@ -325,18 +329,37 @@ li {
   }
 }
 
-@media screen and (min-width: 813px) and (max-width: 1400px) {
+@media screen and (min-width: 814px) and (max-width: 1400px) {
   .hero_who {
     height: 80%;
     z-index: -10;
+    margin-top: 10%
   }
 
   .sub_hero {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     margin-top: 11%;
     height: 80%;
+
   }
+  .safety_run{
+    margin-top: 10%
+  }
+
+  .txt1{
+  font-size: 200%;
+  margin-top: 2%;
+  transform: translate(-5%, 0%);
+  }
+
+  #fullPage{
+  display: flex;
+  flex-direction: column;
+  }
+
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1920px) {
